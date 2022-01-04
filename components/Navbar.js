@@ -24,6 +24,11 @@ export default function Navbar() {
           <a>Contato</a>
         </Link>
       </li>
+      <li>
+        <Link href="/todos">
+          <a>Todos</a>
+        </Link>
+      </li>
     </ul>
   );
 }
