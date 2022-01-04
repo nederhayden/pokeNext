@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 
 import styles from "../styles/Home.module.css";
 
@@ -12,6 +13,12 @@ export default function Home() {
       </Head>
       <div>
         <h1 className={styles.title}>Hello World!</h1>
+        <Image
+          src="/images/parede.jpg"
+          width="400px"
+          height="400px"
+          alt="Parede"
+        />
       </div>
     </>
   );
